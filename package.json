@@ -1,0 +1,33 @@
+{
+  "name": "app-creator-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^19.0.3",
+    "async-shelljs": "^0.1.4",
+    "chalk": "^5.0.1",
+    "child_process": "^1.0.2",
+    "clear": "^0.1.0",
+    "configstore": "^6.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.0.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.6",
+    "nodemon": "^2.0.19",
+    "shelljs": "^0.8.5",
+    "simple-git": "^3.10.0",
+    "touch": "^3.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
