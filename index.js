@@ -21,7 +21,8 @@ const run = async ()=>{
     if (questions.nodemonPkg==='Yes'){
         await shelljs.asyncExec(` cd ${questions.appName} && npm i --save nodemon`);
     }
-    
+
+    console.log('finished');
     
 };
 
